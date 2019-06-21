@@ -1,0 +1,141 @@
+body {
+	font-family: "Crimson Text", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+main h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+main a {
+    color: #851944;
+}
+
+h2 {
+	font-size: 30px;
+	clear: both;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav a {
+	color: #F2FFFC;
+	text-transform: lowercase;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.titulo-h1 {
+	font-size: 60px;
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 20px;
+	margin: 0;
+	border-bottom: 10px solid black;
+	text-transform: uppercase;
+}
+
+.centraliza-texto {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+	padding-bottom: 80px;
+}
+
+.navegacao-site {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	text-align: center;
+	width: 15%;
+	position: relative;
+	top: 310px;
+}
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.navegacao-site, .minha-foto {
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	box-sizing: border-box;
+	clear: right;
+	float: right;
+}
+
+.navegacao-site-lista  {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 20px;
+}
+
+.h1-navegacao-site {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.icones-sociais li {
+	display: inline-block;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.twitter {
+     background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	padding: 20px;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
